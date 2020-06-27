@@ -1,0 +1,946 @@
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 09:56
+Initialise procedure is successfull 09:56
+______________________________________________________________________
+
+Vedrina script starts execution 09:56
+Connected to Vedrina 09:57
+Password for Vedrina accepted 09:58
+Stats for Vedrina loaded 09:58
+Snapshots of Vedrina taken 09:59
+Vedrina operation is successful 28-11-2018_09:59
+______________________________________________________________________
+Exit procedure is starting 09:59
+Exit procedure is successful 09:59
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 09:59
+Initialise procedure is successfull 10:00
+______________________________________________________________________
+
+Fouren script starts execution 10:00
+Connected to Fouren 10:01
+Password for Fouren accepted 10:02
+Stats for Fouren loaded 10:02
+Snapshots of Fouren taken 10:02
+Fouren operation is successful 28-11-2018_10:03
+______________________________________________________________________
+Exit procedure is starting 10:03
+Exit procedure is successful 10:03
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:03
+Initialise procedure is successfull 10:03
+______________________________________________________________________
+
+Dedraks script starts execution 10:03
+______________________________________________________________________
+Exit procedure is starting 10:06
+Exit procedure is successful 10:06
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:06
+Initialise procedure is successfull 10:07
+______________________________________________________________________
+
+Virovsko script starts execution 10:07
+Connected to Virovsko 10:08
+Password for Virovsko accepted 10:09
+Stats for Virovsko loaded 10:09
+Snapshots of Virovsko taken 10:09
+Virovsko operation is successful 28-11-2018_10:10
+______________________________________________________________________
+Exit procedure is starting 10:10
+Exit procedure is successful 10:10
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:10
+Initialise procedure is successfull 10:10
+______________________________________________________________________
+
+Hotnitsa script starts execution 10:10
+Connected to Hotnitsa 10:11
+Password for Hotnitsa accepted 10:12
+Stats for Hotnitsa loaded 10:13
+Snapshots of Hotnitsa taken 10:13
+Hotnitsa operation is successful 28-11-2018_10:13
+______________________________________________________________________
+Exit procedure is starting 10:13
+Exit procedure is successful 10:13
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:14
+Initialise procedure is successfull 10:14
+______________________________________________________________________
+
+Staropatitsa script starts execution 10:14
+Connected to Staropatitsa 10:15
+Password for Staropatitsa accepted 10:16
+Stats for Staropatitsa loaded 10:16
+Snapshots of Staropatitsa taken 10:17
+Staropatitsa operation is successful 28-11-2018_10:17
+______________________________________________________________________
+Exit procedure is starting 10:17
+Exit procedure is successful 10:17
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:17
+Initialise procedure is successfull 10:17
+______________________________________________________________________
+
+Yassen script starts execution 10:18
+______________________________________________________________________
+Exit procedure is starting 10:21
+Exit procedure is successful 10:21
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:21
+Initialise procedure is successfull 10:21
+______________________________________________________________________
+
+Vurbitsa_Vratsa script starts execution 10:21
+Connected to Vurbitsa_Vratsa 10:22
+Password for Vurbitsa_Vratsa accepted 10:23
+Stats for Vurbitsa_Vratsa loaded 10:23
+Snapshots of Vurbitsa_Vratsa taken 10:24
+Vurbitsa_Vratsa operation is successful 28-11-2018_10:24
+______________________________________________________________________
+Exit procedure is starting 10:24
+Exit procedure is successful 10:24
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:24
+Initialise procedure is successfull 10:25
+______________________________________________________________________
+
+Bukovets script starts execution 10:25
+Connected to Bukovets 10:26
+Password for Bukovets accepted 10:27
+Stats for Bukovets loaded 10:27
+Snapshots of Bukovets taken 10:27
+Bukovets operation is successful 28-11-2018_10:28
+______________________________________________________________________
+Exit procedure is starting 10:28
+Exit procedure is successful 10:28
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:28
+Initialise procedure is successfull 10:28
+______________________________________________________________________
+
+Gorovo script starts execution 10:28
+Connected to Gorovo 10:29
+Password for Gorovo accepted 10:30
+Stats for Gorovo loaded 10:31
+Snapshots of Gorovo taken 10:31
+Gorovo operation is successful 28-11-2018_10:32
+______________________________________________________________________
+Exit procedure is starting 10:32
+Exit procedure is successful 10:32
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:32
+Initialise procedure is successfull 10:32
+______________________________________________________________________
+
+Vurbitsa_Pleven script starts execution 10:32
+______________________________________________________________________
+Exit procedure is starting 10:35
+Exit procedure is successful 10:35
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:35
+Initialise procedure is successfull 10:36
+______________________________________________________________________
+
+Gougoutka script starts execution 10:36
+______________________________________________________________________
+Exit procedure is starting 10:39
+Exit procedure is successful 10:39
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:39
+Initialise procedure is successfull 10:39
+______________________________________________________________________
+
+Kozloduy_NPP script starts execution 10:39
+Connected to Kozloduy_NPP 10:40
+Password for Kozloduy_NPP accepted 10:41
+Stats for Kozloduy_NPP loaded 10:42
+Snapshots of Kozloduy_NPP taken 10:42
+Kozloduy_NPP operation is successful 28-11-2018_10:42
+______________________________________________________________________
+Exit procedure is starting 10:42
+Exit procedure is successful 10:42
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:42
+Initialise procedure is successfull 10:43
+______________________________________________________________________
+
+Gorno_Negushevo script starts execution 10:43
+Connected to Gorno_Negushevo 10:44
+Password for Gorno_Negushevo accepted 10:45
+Stats for Gorno_Negushevo loaded 10:45
+Snapshots of Gorno_Negushevo taken 10:46
+Gorno_Negushevo operation is successful 28-11-2018_10:46
+______________________________________________________________________
+Exit procedure is starting 10:46
+Exit procedure is successful 10:46
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:46
+Initialise procedure is successfull 10:46
+______________________________________________________________________
+
+Bultime script starts execution 10:46
+______________________________________________________________________
+Exit procedure is starting 10:49
+Exit procedure is successful 10:49
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:49
+Initialise procedure is successfull 10:50
+______________________________________________________________________
+
+Masterhaus_Ravda script starts execution 10:50
+Connected to Masterhaus_Ravda 10:51
+Password for Masterhaus_Ravda accepted 10:52
+Stats for Masterhaus_Ravda loaded 10:52
+Snapshots of Masterhaus_Ravda taken 10:53
+Masterhaus_Ravda operation is successful 28-11-2018_10:53
+______________________________________________________________________
+Exit procedure is starting 10:53
+Exit procedure is successful 10:53
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:53
+Initialise procedure is successfull 10:54
+______________________________________________________________________
+
+Masterhaus_Primorsko script starts execution 10:54
+Connected to Masterhaus_Primorsko 10:55
+Password for Masterhaus_Primorsko accepted 10:56
+Stats for Masterhaus_Primorsko loaded 10:56
+Snapshots of Masterhaus_Primorsko taken 10:57
+Masterhaus_Primorsko operation is successful 28-11-2018_10:57
+______________________________________________________________________
+Exit procedure is starting 10:57
+Exit procedure is successful 10:57
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 10:58
+Initialise procedure is successfull 10:58
+______________________________________________________________________
+
+Milchev script starts execution 10:58
+Connected to Milchev 10:59
+Password for Milchev accepted 11:00
+Stats for Milchev loaded 11:00
+Snapshots of Milchev taken 11:01
+Milchev operation is successful 28-11-2018_11:01
+______________________________________________________________________
+Exit procedure is starting 11:01
+Exit procedure is successful 11:01
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:02
+Initialise procedure is successfull 11:02
+______________________________________________________________________
+
+Amer_Sport script starts execution 11:02
+Connected to Amer_Sport 11:03
+Password for Amer_Sport accepted 11:04
+Stats for Amer_Sport loaded 11:04
+Snapshots of Amer_Sport taken 11:05
+Amer_Sport operation is successful 28-11-2018_11:05
+______________________________________________________________________
+Exit procedure is starting 11:06
+Exit procedure is successful 11:06
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:06
+Initialise procedure is successfull 11:06
+______________________________________________________________________
+
+Brushlen script starts execution 11:06
+Connected to Brushlen 11:07
+Password for Brushlen accepted 11:08
+Stats for Brushlen loaded 11:08
+Snapshots of Brushlen taken 11:09
+Brushlen operation is successful 28-11-2018_11:09
+______________________________________________________________________
+Exit procedure is starting 11:10
+Exit procedure is successful 11:10
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:10
+Initialise procedure is successfull 11:10
+______________________________________________________________________
+
+Raklinovo script starts execution 11:10
+Connected to Raklinovo 11:11
+Password for Raklinovo accepted 11:12
+Stats for Raklinovo loaded 11:12
+Snapshots of Raklinovo taken 11:13
+Raklinovo operation is successful 28-11-2018_11:13
+______________________________________________________________________
+Exit procedure is starting 11:13
+Exit procedure is successful 11:13
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:13
+Initialise procedure is successfull 11:14
+______________________________________________________________________
+
+Euro07 script starts execution 11:14
+Connected to Euro07 11:15
+Password for Euro07 accepted 11:16
+Stats for Euro07 loaded 11:16
+Snapshots of Euro07 taken 11:17
+Euro07 operation is successful 28-11-2018_11:17
+______________________________________________________________________
+Exit procedure is starting 11:17
+Exit procedure is successful 11:17
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:17
+Initialise procedure is successfull 11:18
+______________________________________________________________________
+
+Sport_Club_Management script starts execution 11:18
+Connected to Sport_Club_Management 11:19
+Password for Sport_Club_Management accepted 11:20
+Stats for Sport_Club_Management loaded 11:20
+Snapshots of Sport_Club_Management taken 11:21
+Sport_Club_Management operation is successful 28-11-2018_11:21
+______________________________________________________________________
+Exit procedure is starting 11:21
+Exit procedure is successful 11:21
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:21
+Initialise procedure is successfull 11:22
+______________________________________________________________________
+
+Atik_Plovdiv script starts execution 11:22
+Connected to Atik_Plovdiv 11:23
+Password for Atik_Plovdiv accepted 11:24
+Stats for Atik_Plovdiv loaded 11:24
+Snapshots of Atik_Plovdiv taken 11:25
+Atik_Plovdiv operation is successful 28-11-2018_11:25
+______________________________________________________________________
+Exit procedure is starting 11:25
+Exit procedure is successful 11:25
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:25
+Initialise procedure is successfull 11:26
+______________________________________________________________________
+
+Agroelit_Buinovo script starts execution 11:26
+______________________________________________________________________
+Exit procedure is starting 11:29
+Exit procedure is successful 11:29
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:29
+Initialise procedure is successfull 11:29
+______________________________________________________________________
+
+Metal_Trade_Vitanovtsi script starts execution 11:29
+Connected to Metal_Trade_Vitanovtsi 11:30
+Password for Metal_Trade_Vitanovtsi accepted 11:31
+Stats for Metal_Trade_Vitanovtsi loaded 11:32
+Snapshots of Metal_Trade_Vitanovtsi taken 11:33
+Metal_Trade_Vitanovtsi operation is successful 28-11-2018_11:33
+______________________________________________________________________
+Exit procedure is starting 11:33
+Exit procedure is successful 11:33
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:33
+Initialise procedure is successfull 11:33
+______________________________________________________________________
+
+Bulgartabak script starts execution 11:33
+Connected to Bulgartabak 11:34
+Password for Bulgartabak accepted 11:35
+Stats for Bulgartabak loaded 11:36
+Snapshots of Bulgartabak taken 11:37
+Bulgartabak operation is successful 28-11-2018_11:37
+______________________________________________________________________
+Exit procedure is starting 11:37
+Exit procedure is successful 11:37
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:37
+Initialise procedure is successfull 11:37
+______________________________________________________________________
+
+Iskur_Lake script starts execution 11:38
+______________________________________________________________________
+Exit procedure is starting 11:40
+Exit procedure is successful 11:40
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:41
+Initialise procedure is successfull 11:41
+______________________________________________________________________
+
+Samuil script starts execution 11:41
+Connected to Samuil 11:42
+Password for Samuil accepted 11:43
+Stats for Samuil loaded 11:43
+Snapshots of Samuil taken 11:44
+Samuil operation is successful 28-11-2018_11:44
+______________________________________________________________________
+Exit procedure is starting 11:44
+Exit procedure is successful 11:44
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 11:44
+Initialise procedure is successfull 11:45
+______________________________________________________________________
+
+Kaufland_Dupnitsa script starts execution 11:45
+Connected to Kaufland_Dupnitsa 11:46
+Password for Kaufland_Dupnitsa accepted 11:47
+Stats for Kaufland_Dupnitsa loaded 11:47
+Snapshots of Kaufland_Dupnitsa taken 11:48
+Kaufland_Dupnitsa operation is successful 28-11-2018_11:48
+______________________________________________________________________
+Exit procedure is starting 11:48
+Exit procedure is successful 11:48
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:03
+Initialise procedure is successfull 12:03
+______________________________________________________________________
+
+Vedrina script starts execution 12:03
+Connected to Vedrina 12:05
+Password for Vedrina accepted 12:06
+Stats for Vedrina loaded 12:06
+Snapshots of Vedrina taken 12:07
+Vedrina operation is successful 28-11-2018_12:07
+______________________________________________________________________
+Exit procedure is starting 12:07
+Exit procedure is successful 12:07
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:07
+Initialise procedure is successfull 12:08
+______________________________________________________________________
+
+Fouren script starts execution 12:08
+Connected to Fouren 12:09
+Password for Fouren accepted 12:10
+Stats for Fouren loaded 12:10
+Snapshots of Fouren taken 12:10
+Fouren operation is successful 28-11-2018_12:11
+______________________________________________________________________
+Exit procedure is starting 12:11
+Exit procedure is successful 12:11
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:11
+Initialise procedure is successfull 12:11
+______________________________________________________________________
+
+Dedraks script starts execution 12:11
+______________________________________________________________________
+Exit procedure is starting 12:14
+Exit procedure is successful 12:14
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:14
+Initialise procedure is successfull 12:14
+______________________________________________________________________
+
+Virovsko script starts execution 12:15
+Connected to Virovsko 12:16
+Password for Virovsko accepted 12:16
+Stats for Virovsko loaded 12:17
+Snapshots of Virovsko taken 12:17
+Virovsko operation is successful 28-11-2018_12:17
+______________________________________________________________________
+Exit procedure is starting 12:18
+Exit procedure is successful 12:18
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:18
+Initialise procedure is successfull 12:18
+______________________________________________________________________
+
+Hotnitsa script starts execution 12:18
+Connected to Hotnitsa 12:20
+Password for Hotnitsa accepted 12:21
+Stats for Hotnitsa loaded 12:21
+Snapshots of Hotnitsa taken 12:22
+Hotnitsa operation is successful 28-11-2018_12:22
+______________________________________________________________________
+Exit procedure is starting 12:22
+Exit procedure is successful 12:22
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:22
+Initialise procedure is successfull 12:22
+______________________________________________________________________
+
+Staropatitsa script starts execution 12:22
+Connected to Staropatitsa 12:23
+Password for Staropatitsa accepted 12:24
+Stats for Staropatitsa loaded 12:25
+Snapshots of Staropatitsa taken 12:25
+Staropatitsa operation is successful 28-11-2018_12:25
+______________________________________________________________________
+Exit procedure is starting 12:25
+Exit procedure is successful 12:25
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:26
+Initialise procedure is successfull 12:26
+______________________________________________________________________
+
+Yassen script starts execution 12:26
+______________________________________________________________________
+Exit procedure is starting 12:29
+Exit procedure is successful 12:29
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:29
+Initialise procedure is successfull 12:29
+______________________________________________________________________
+
+Vurbitsa_Vratsa script starts execution 12:29
+Connected to Vurbitsa_Vratsa 12:30
+Password for Vurbitsa_Vratsa accepted 12:31
+Stats for Vurbitsa_Vratsa loaded 12:32
+Snapshots of Vurbitsa_Vratsa taken 12:32
+Vurbitsa_Vratsa operation is successful 28-11-2018_12:32
+______________________________________________________________________
+Exit procedure is starting 12:32
+Exit procedure is successful 12:32
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:33
+Initialise procedure is successfull 12:33
+______________________________________________________________________
+
+Bukovets script starts execution 12:33
+Connected to Bukovets 12:34
+Password for Bukovets accepted 12:35
+Stats for Bukovets loaded 12:36
+Snapshots of Bukovets taken 12:36
+Bukovets operation is successful 28-11-2018_12:36
+______________________________________________________________________
+Exit procedure is starting 12:36
+Exit procedure is successful 12:36
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:36
+Initialise procedure is successfull 12:37
+______________________________________________________________________
+
+Gorovo script starts execution 12:37
+Connected to Gorovo 12:38
+Password for Gorovo accepted 12:39
+Stats for Gorovo loaded 12:39
+Snapshots of Gorovo taken 12:40
+Gorovo operation is successful 28-11-2018_12:40
+______________________________________________________________________
+Exit procedure is starting 12:40
+Exit procedure is successful 12:40
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:40
+Initialise procedure is successfull 12:41
+______________________________________________________________________
+
+Vurbitsa_Pleven script starts execution 12:41
+______________________________________________________________________
+Exit procedure is starting 12:44
+Exit procedure is successful 12:44
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:44
+Initialise procedure is successfull 12:44
+______________________________________________________________________
+
+Gougoutka script starts execution 12:44
+______________________________________________________________________
+Exit procedure is starting 12:47
+Exit procedure is successful 12:47
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:47
+Initialise procedure is successfull 12:47
+______________________________________________________________________
+
+Kozloduy_NPP script starts execution 12:48
+Connected to Kozloduy_NPP 12:49
+Password for Kozloduy_NPP accepted 12:50
+Stats for Kozloduy_NPP loaded 12:50
+Snapshots of Kozloduy_NPP taken 12:50
+Kozloduy_NPP operation is successful 28-11-2018_12:51
+______________________________________________________________________
+Exit procedure is starting 12:51
+Exit procedure is successful 12:51
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:51
+Initialise procedure is successfull 12:51
+______________________________________________________________________
+
+Gorno_Negushevo script starts execution 12:51
+Connected to Gorno_Negushevo 12:52
+Password for Gorno_Negushevo accepted 12:55
+Stats for Gorno_Negushevo loaded 12:55
+Snapshots of Gorno_Negushevo taken 12:56
+Gorno_Negushevo operation is successful 28-11-2018_12:56
+______________________________________________________________________
+Exit procedure is starting 12:56
+Exit procedure is successful 12:56
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 12:56
+Initialise procedure is successfull 12:56
+______________________________________________________________________
+
+Bultime script starts execution 12:56
+______________________________________________________________________
+Exit procedure is starting 12:59
+Exit procedure is successful 12:59
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:00
+Initialise procedure is successfull 13:00
+______________________________________________________________________
+
+Masterhaus_Ravda script starts execution 13:00
+Connected to Masterhaus_Ravda 13:01
+Password for Masterhaus_Ravda accepted 13:02
+Stats for Masterhaus_Ravda loaded 13:02
+Snapshots of Masterhaus_Ravda taken 13:03
+Masterhaus_Ravda operation is successful 28-11-2018_13:03
+______________________________________________________________________
+Exit procedure is starting 13:03
+Exit procedure is successful 13:03
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:04
+Initialise procedure is successfull 13:04
+______________________________________________________________________
+
+Masterhaus_Primorsko script starts execution 13:04
+Connected to Masterhaus_Primorsko 13:05
+______________________________________________________________________
+Exit procedure is starting 13:08
+Exit procedure is successful 13:08
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:08
+Initialise procedure is successfull 13:08
+______________________________________________________________________
+
+Milchev script starts execution 13:08
+Connected to Milchev 13:10
+Password for Milchev accepted 13:11
+Stats for Milchev loaded 13:11
+Snapshots of Milchev taken 13:12
+Milchev operation is successful 28-11-2018_13:12
+______________________________________________________________________
+Exit procedure is starting 13:13
+Exit procedure is successful 13:13
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:13
+Initialise procedure is successfull 13:13
+______________________________________________________________________
+
+Amer_Sport script starts execution 13:13
+Connected to Amer_Sport 13:14
+Password for Amer_Sport accepted 13:15
+Stats for Amer_Sport loaded 13:15
+Snapshots of Amer_Sport taken 13:16
+Amer_Sport operation is successful 28-11-2018_13:17
+______________________________________________________________________
+Exit procedure is starting 13:17
+Exit procedure is successful 13:17
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:17
+Initialise procedure is successfull 13:17
+______________________________________________________________________
+
+Brushlen script starts execution 13:17
+Connected to Brushlen 13:18
+Password for Brushlen accepted 13:19
+Stats for Brushlen loaded 13:19
+Snapshots of Brushlen taken 13:20
+Brushlen operation is successful 28-11-2018_13:21
+______________________________________________________________________
+Exit procedure is starting 13:21
+Exit procedure is successful 13:21
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:21
+Initialise procedure is successfull 13:21
+______________________________________________________________________
+
+Raklinovo script starts execution 13:21
+Connected to Raklinovo 13:22
+Password for Raklinovo accepted 13:23
+Stats for Raklinovo loaded 13:23
+Snapshots of Raklinovo taken 13:24
+Raklinovo operation is successful 28-11-2018_13:24
+______________________________________________________________________
+Exit procedure is starting 13:24
+Exit procedure is successful 13:24
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:24
+Initialise procedure is successfull 13:25
+______________________________________________________________________
+
+Euro07 script starts execution 13:25
+Connected to Euro07 13:26
+Password for Euro07 accepted 13:27
+Stats for Euro07 loaded 13:27
+Snapshots of Euro07 taken 13:28
+Euro07 operation is successful 28-11-2018_13:28
+______________________________________________________________________
+Exit procedure is starting 13:28
+Exit procedure is successful 13:28
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:28
+Initialise procedure is successfull 13:29
+______________________________________________________________________
+
+Sport_Club_Management script starts execution 13:29
+Connected to Sport_Club_Management 13:30
+Password for Sport_Club_Management accepted 13:31
+Stats for Sport_Club_Management loaded 13:31
+Snapshots of Sport_Club_Management taken 13:32
+Sport_Club_Management operation is successful 28-11-2018_13:32
+______________________________________________________________________
+Exit procedure is starting 13:32
+Exit procedure is successful 13:32
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:33
+Initialise procedure is successfull 13:33
+______________________________________________________________________
+
+Atik_Plovdiv script starts execution 13:33
+Connected to Atik_Plovdiv 13:34
+Password for Atik_Plovdiv accepted 13:35
+Stats for Atik_Plovdiv loaded 13:35
+Snapshots of Atik_Plovdiv taken 13:36
+Atik_Plovdiv operation is successful 28-11-2018_13:36
+______________________________________________________________________
+Exit procedure is starting 13:36
+Exit procedure is successful 13:36
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:37
+Initialise procedure is successfull 13:37
+______________________________________________________________________
+
+Agroelit_Buinovo script starts execution 13:37
+______________________________________________________________________
+Exit procedure is starting 13:40
+Exit procedure is successful 13:40
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:40
+Initialise procedure is successfull 13:40
+______________________________________________________________________
+
+Metal_Trade_Vitanovtsi script starts execution 13:40
+Connected to Metal_Trade_Vitanovtsi 13:41
+Password for Metal_Trade_Vitanovtsi accepted 13:42
+Stats for Metal_Trade_Vitanovtsi loaded 13:43
+Snapshots of Metal_Trade_Vitanovtsi taken 13:43
+Metal_Trade_Vitanovtsi operation is successful 28-11-2018_13:44
+______________________________________________________________________
+Exit procedure is starting 13:44
+Exit procedure is successful 13:44
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:44
+Initialise procedure is successfull 13:44
+______________________________________________________________________
+
+Bulgartabak script starts execution 13:44
+Connected to Bulgartabak 13:45
+Password for Bulgartabak accepted 13:46
+Stats for Bulgartabak loaded 13:47
+Snapshots of Bulgartabak taken 13:48
+Bulgartabak operation is successful 28-11-2018_13:48
+______________________________________________________________________
+Exit procedure is starting 13:48
+Exit procedure is successful 13:48
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:48
+Initialise procedure is successfull 13:48
+______________________________________________________________________
+
+Iskur_Lake script starts execution 13:48
+______________________________________________________________________
+Exit procedure is starting 13:51
+Exit procedure is successful 13:51
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:51
+Initialise procedure is successfull 13:52
+______________________________________________________________________
+
+Samuil script starts execution 13:52
+Connected to Samuil 13:53
+Password for Samuil accepted 13:54
+Stats for Samuil loaded 13:54
+Snapshots of Samuil taken 13:54
+Samuil operation is successful 28-11-2018_13:55
+______________________________________________________________________
+Exit procedure is starting 13:55
+Exit procedure is successful 13:55
+______________________________________________________________________
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+______________________________________________________________________
+Initialise procedure is starting 13:55
+Initialise procedure is successfull 13:55
+______________________________________________________________________
+
+Kaufland_Dupnitsa script starts execution 13:55
+Connected to Kaufland_Dupnitsa 13:56
+Password for Kaufland_Dupnitsa accepted 13:57
+Stats for Kaufland_Dupnitsa loaded 13:58
+Snapshots of Kaufland_Dupnitsa taken 13:58
+Kaufland_Dupnitsa operation is successful 28-11-2018_13:59
+______________________________________________________________________
+Exit procedure is starting 13:59
+Exit procedure is successful 13:59
+______________________________________________________________________
+----------------------------------------------------------------------

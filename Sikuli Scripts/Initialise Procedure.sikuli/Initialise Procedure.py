@@ -1,0 +1,25 @@
+xxx datetime;
+currentdate = datetime.datetime.now()
+s = 'D:\\Repeaters\\Repeaters_Log_'+ currentdate.strftime("%d-%m-%Y") + '.txt'
+f = open(s, 'a')
+f.write('----------------------------------------------------------------------\n')
+f.write('______________________________________________________________________\n')
+f.write('Initialise procedure is starting ' + currentdate.strftime("%H:%M") + '\n')
+f.close()
+click(Pattern("1542897088455.png").similar(0.80))
+time.sleep(5)
+click(Pattern("1542897163573.png").similar(0.80))
+time.sleep(1)
+click(Pattern("1542897214779.png").similar(0.80).targetOffset(-50,-2))
+time.sleep(1)
+click("1542897281784.png")
+time.sleep(2)
+click(Pattern("1542897345631.png").similar(0.80).targetOffset(-2,4))
+click("1542897376124.png")
+currentdate = datetime.datetime.now()
+f = open(s, 'a')
+f.write('Initialise procedure is successfull ' + currentdate.strftime("%H:%M") + '\n')
+f.write('______________________________________________________________________\n')
+f.close()
+
+

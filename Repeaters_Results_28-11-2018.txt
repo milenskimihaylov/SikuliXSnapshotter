@@ -1,0 +1,33 @@
+Vedrina - OK
+Fouren - OK
+Dedraks - NOK
+Virovsko - OK
+Hotnitsa - OK
+Staropatitsa - OK
+Yassen - NOK
+Vurbitsa_Vratsa - OK
+Bukovets - OK
+Gorovo - OK
+Vurbitsa_Pleven - NOK
+Gougoutka - NOK
+Kozloduy_NPP - OK
+Gorno_Negushevo - OK
+Bultime - NOK
+Masterhaus_Ravda - OK
+Masterhaus_Primorsko - OK
+Milchev - OK
+Amer_Sport - OK
+Brushlen - OK
+Raklinovo - OK
+Euro07 - OK
+Sport_Club_Management - OK
+Atik_Plovdiv - OK
+Agroelit_Buinovo - NOK
+Metal_Trade_Vitanovtsi - OK
+Bulgartabak - OK
+Iskur_Lake - NOK
+Samuil - OK
+Kaufland_Dupnitsa - OK
+
+23 repeater(s) are OK. Snapshots are taken.
+7 repeater(s) are NOK. Snapshots are NOT taken.

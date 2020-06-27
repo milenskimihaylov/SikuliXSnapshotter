@@ -1,0 +1,175 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !xxxant;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>Bultime.sikuli</h2> <a href="Bultime.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">xxx</span> datetime;
+currentdate = datetime.datetime.now()
+s = <span class="str">'D:\\Repeaters\\Repeaters_Log_'</span>+ currentdate.strftime(<span class="str">"%d-%m-%Y"</span>) + <span class="str">'.txt'</span>
+c = <span class="str">'Bultime'</span>
+f = open(s, <span class="str">'a'</span>)
+f.write(<span class="str">'\n'</span> + c +<span class="str">' script starts execution '</span> + currentdate.strftime(<span class="str">"%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+<span class="skw">click</span>(Pattern(<img src="1542879657507.png" />).similar(<span class="dig">0.90</span>))
+
+<span class="skw">click</span>(Pattern(<img src="1542880169863.png" />).similar(<span class="dig">0.90</span>))
+
+<span class="skw">dragDrop</span>(Pattern(<img src="1541683903890.png" />).similar(<span class="dig">0.80</span>).targetOffset(-<span class="dig">75</span>,<span class="dig">2</span>), Pattern(<img src="1541683946919.png" />).similar(<span class="dig">0.90</span>).targetOffset(<span class="dig">19</span>,<span class="dig">6</span>))
+<span class="skw">type</span>(<span class="str">'(+359)xxx'</span>)
+<span class="kw">for</span> x <span class="kw">in</span> range(<span class="dig">3</span>):
+    <span class="skw">click</span>(Pattern(<img src="1541693652417.png" />).similar(<span class="dig">0.80</span>))
+    hover(Pattern(<img src="1541684049033.png" />).similar(<span class="dig">0.90</span>))
+    time.<span class="skw">sleep</span>(<span class="dig">50</span>)
+    <span class="kw">if</span> exists(Pattern(<img src="1541691511061.png" />).similar(<span class="dig">0.85</span>),<span class="dig">1</span>) != None:
+        <span class="kw">break</span>
+<span class="skw">find</span>(<img src="1541684202039-1.png" />)
+currentdate = datetime.datetime.now()
+f = open(s, <span class="str">'a'</span>)
+f.write(<span class="str">'Connected to '</span> + c + <span class="str">' '</span> + currentdate.strftime(<span class="str">"%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+<span class="skw">type</span>(<img src="1541684202039.png" />, <span class="str">'xxx'</span>)
+
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">3</span>):
+    <span class="skw">click</span>(Pattern(<img src="1541684400971.png" />).similar(<span class="dig">0.85</span>))
+    hover(<img src="1541684461365.png" />)
+    time.<span class="skw">sleep</span>(<span class="dig">50</span>)
+    <span class="kw">if</span> exists(Pattern(<img src="1542893266942-1.png" />).similar(<span class="dig">0.80</span>),<span class="dig">1</span>) != None:
+        <span class="kw">break</span>
+<span class="skw">find</span>(Pattern(<img src="1542893266942-3.png" />).similar(<span class="dig">0.80</span>))
+currentdate = datetime.datetime.now()
+f = open(s, <span class="str">'a'</span>)
+f.write(<span class="str">'Password for '</span> + c + <span class="str">' accepted '</span> + currentdate.strftime(<span class="str">"%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+<span class="skw">click</span>(Pattern(<img src="1542893266942-2.png" />).similar(<span class="dig">0.80</span>))
+time.<span class="skw">sleep</span>(<span class="dig">3</span>)
+
+waitVanish(Pattern(<img src="1543309633236.png" />).exact(),<span class="dig">120</span>)
+currentdate = datetime.datetime.now()
+f = open(s, <span class="str">'a'</span>)
+f.write(<span class="str">'Stats for '</span> + c + <span class="str">' loaded '</span> + currentdate.strftime(<span class="str">"%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+<span class="skw">click</span>(Pattern(<img src="1542880917024.png" />).similar(<span class="dig">0.90</span>))
+time.<span class="skw">sleep</span>(<span class="dig">3</span>)
+<span class="skw">click</span>(Pattern(<img src="1542881195104.png" />).similar(<span class="dig">0.80</span>))
+time.<span class="skw">sleep</span>(<span class="dig">3</span>)
+
+<span class="skw">dragDrop</span>(Pattern(<img src="1542885643107.png" />).similar(<span class="dig">0.95</span>).targetOffset(-<span class="dig">69</span>,-<span class="dig">40</span>), Pattern(<img src="1542885675546.png" />).similar(<span class="dig">0.80</span>).targetOffset(<span class="dig">71</span>,<span class="dig">30</span>))
+
+
+<span class="skw">click</span>(Pattern(<img src="1542881501167.png" />).similar(<span class="dig">0.80</span>))
+
+
+<span class="skw">dragDrop</span>(Pattern(<img src="1542881644339.png" />).similar(<span class="dig">0.90</span>).targetOffset(<span class="dig">163</span>,-<span class="dig">15</span>), Pattern(<img src="1542881703313.png" />).similar(<span class="dig">0.80</span>).targetOffset(<span class="dig">40</span>,-<span class="dig">8</span>))
+
+currentdate = datetime.datetime.now()
+a = <span class="str">'D:\\Repeaters\\Snapshots\\'</span> + c +<span class="str">'_'</span> + currentdate.strftime(<span class="str">"%d-%m-%Y_%H-%M"</span>)
+<span class="skw">type</span>(a)
+
+<span class="skw">click</span>(Pattern(<img src="1542881798137.png" />).similar(<span class="dig">0.90</span>))
+
+
+<span class="skw">click</span>(Pattern(<img src="1542884802777.png" />).similar(<span class="dig">0.80</span>).targetOffset(<span class="dig">213</span>,-<span class="dig">30</span>))
+time.<span class="skw">sleep</span>(<span class="dig">2</span>)
+<span class="kw">if</span> exists(Pattern(<img src="1543332827430.png" />).exact()) == None:
+
+    <span class="skw">click</span>(<img src="1541685414532-1.png" />)
+
+    <span class="skw">click</span>(Pattern(<img src="1542880917024-1.png" />).similar(<span class="dig">0.90</span>))
+    time.<span class="skw">sleep</span>(<span class="dig">3</span>)
+    <span class="skw">click</span>(Pattern(<img src="1542881195104-1.png" />).similar(<span class="dig">0.80</span>))
+    time.<span class="skw">sleep</span>(<span class="dig">3</span>)
+    <span class="skw">dragDrop</span>(Pattern(<img src="1542884991114-1.png" />).similar(<span class="dig">0.90</span>).targetOffset(-<span class="dig">59</span>,-<span class="dig">28</span>), Pattern(<img src="1542885022234-1.png" />).similar(<span class="dig">0.90</span>).targetOffset(<span class="dig">65</span>,<span class="dig">43</span>))
+
+    <span class="skw">click</span>(Pattern(<img src="1542881501167-1.png" />).similar(<span class="dig">0.80</span>))
+    <span class="skw">dragDrop</span>(Pattern(<img src="1542881644339-1.png" />).similar(<span class="dig">0.90</span>).targetOffset(<span class="dig">163</span>,-<span class="dig">15</span>), Pattern(<img src="1542881703313-1.png" />).similar(<span class="dig">0.80</span>).targetOffset(<span class="dig">40</span>,-<span class="dig">8</span>))
+    currentdate = datetime.datetime.now()
+    b = <span class="str">'D:\\Repeaters\\Snapshots\\'</span> + c +<span class="str">'_Alarms_'</span> + currentdate.strftime(<span class="str">"%d-%m-%Y_%H-%M"</span>)
+    <span class="skw">type</span>(b)
+    <span class="skw">click</span>(Pattern(<img src="1542881798137-1.png" />).similar(<span class="dig">0.90</span>))
+    <span class="skw">click</span>(Pattern(<img src="1542884802777-1.png" />).similar(<span class="dig">0.80</span>).targetOffset(<span class="dig">213</span>,-<span class="dig">30</span>))
+    time.<span class="skw">sleep</span>(<span class="dig">2</span>)
+currentdate = datetime.datetime.now()
+f = open(s, <span class="str">'a'</span>)
+f.write(<span class="str">'Snapshots of '</span> + c + <span class="str">' taken '</span> + currentdate.strftime(<span class="str">"%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+
+<span class="skw">click</span>(Pattern(<img src="1542979556677.png" />).similar(<span class="dig">0.80</span>))
+time.<span class="skw">sleep</span>(<span class="dig">2</span>)
+
+<span class="skw">click</span>(Pattern(<img src="1541686059736.png" />).similar(<span class="dig">0.80</span>))
+time.<span class="skw">sleep</span>(<span class="dig">10</span>)
+<span class="skw">click</span>(Pattern(<img src="1541686088012.png" />).similar(<span class="dig">0.80</span>))
+currentdate = datetime.datetime.now()
+f = open(s, <span class="str">'a'</span>)
+f.write(c + <span class="str">' operation is successful '</span> + currentdate.strftime(<span class="str">"%d-%m-%Y_%H:%M"</span>) + <span class="str">'\n'</span>)
+f.close()
+</pre>
+</body>
+</html>

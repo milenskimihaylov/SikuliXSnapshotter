@@ -1,0 +1,360 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !xxxant;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>Check Procedure.sikuli</h2> <a href="Check Procedure.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">xxx</span> datetime;
+currentdate = datetime.datetime.now()
+s = <span class="str">'D:\\Repeaters\\Repeaters_Log_'</span>+ currentdate.strftime(<span class="str">"%d-%m-%Y"</span>) + <span class="str">'.txt'</span>
+c = <span class="str">'D:\\Repeaters\\Repeaters_Results_'</span>+ currentdate.strftime(<span class="str">"%d-%m-%Y"</span>) + <span class="str">'.txt'</span>
+sum = <span class="dig">0</span>
+sum_nok = <span class="dig">0</span>
+f = open(s)
+<span class="kw">if</span> <span class="str">'Snapshots of Vedrina taken'</span> <span class="kw">in</span> f.read():
+    t = open(c, <span class="str">'w'</span>)
+    t.write(<span class="str">'Vedrina - OK\n'</span>)
+    t.close()
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t = open(c, <span class="str">'w'</span>)
+    t.write(<span class="str">'Vedrina - NOK\n'</span>)
+    t.close()
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+t = open(c, <span class="str">'a'</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Fouren taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Fouren - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Fouren - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Dedraks taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Dedraks - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Dedraks - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Virovsko taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Virovsko - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Virovsko - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Hotnitsa taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Hotnitsa - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Hotnitsa - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Staropatitsa taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Staropatitsa - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Staropatitsa - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Yassen taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Yassen - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Yassen - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Vurbitsa_Vratsa taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Vurbitsa_Vratsa - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Vurbitsa_Vratsa - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Bukovets taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Bukovets - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Bukovets - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Gorovo taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Gorovo - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Gorovo - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Vurbitsa_Pleven taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Vurbitsa_Pleven - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Vurbitsa_Pleven - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Gougoutka taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Gougoutka - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Gougoutka - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Kozloduy_NPP taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Kozloduy_NPP - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Kozloduy_NPP - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Gorno_Negushevo taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Gorno_Negushevo - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Gorno_Negushevo - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Bultime taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Bultime - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Bultime - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Masterhaus_Ravda taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Masterhaus_Ravda - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Masterhaus_Ravda - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Masterhaus_Primorsko taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Masterhaus_Primorsko - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Masterhaus_Primorsko - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Milchev taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Milchev - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Milchev - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Amer_Sport taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Amer_Sport - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Amer_Sport - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Brushlen taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Brushlen - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Brushlen - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Raklinovo taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Raklinovo - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Raklinovo - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Euro07 taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Euro07 - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Euro07 - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Sport_Club_Management taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Sport_Club_Management - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Sport_Club_Management - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Atik_Plovdiv taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Atik_Plovdiv - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Atik_Plovdiv - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Agroelit_Buinovo taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Agroelit_Buinovo - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Agroelit_Buinovo - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Metal_Trade_Vitanovtsi taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Metal_Trade_Vitanovtsi - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Metal_Trade_Vitanovtsi - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Bulgartabak taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Bulgartabak - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Bulgartabak - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Iskur_Lake taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Iskur_Lake - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Iskur_Lake - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Samuil taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Samuil - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Samuil - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+f.seek(<span class="dig">0</span>)
+<span class="kw">if</span> <span class="str">'Snapshots of Kaufland_Dupnitsa taken'</span> <span class="kw">in</span> f.read():
+    t.write(<span class="str">'Kaufland_Dupnitsa - OK\n'</span>)
+    sum = sum + <span class="dig">1</span>
+
+<span class="kw">else</span>:
+    t.write(<span class="str">'Kaufland_Dupnitsa - NOK\n'</span>)
+    sum_nok = sum_nok + <span class="dig">1</span>
+
+t.write(<span class="str">'\n'</span> + str(sum) + <span class="str">' repeater(s) are OK. Snapshots are taken.'</span>)
+t.write(<span class="str">'\n'</span> + str(sum_nok) + <span class="str">' repeater(s) are NOK. Snapshots are NOT taken.'</span>)
+t.close()
+f.close()
+</pre>
+</body>
+</html>
